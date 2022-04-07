@@ -9,9 +9,8 @@
   </head>
 
   <body>
-    
     <div class="page">
-      <header div class="header">
+      <header class="header">
         <nav class="nav">
           <img
             src="./images/logo.png"
@@ -21,19 +20,19 @@
 
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#Staff picks">Staff picks</a>
+              <a class="nav__link" href="#">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link" href="#Events">Events</a>
+              <a class="nav__link" href="#">Events</a>
             </li>
             <li>
-              <a class="nav__link" href="#Become a member">Become a member</a>
+              <a class="nav__link" href="#">Become a member</a>
             </li>
             <li>
-              <a class="nav__link" href="#About">About</a>
+              <a class="nav__link" href="#">About</a>
             </li>
             <li>
-              <a class="nav__link" href="#Contacts">Contacts</a>
+              <a class="nav__link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -52,9 +51,7 @@
         />
 
         <div class="header__footer">
-          <a class="header__link" href="#About the library"
-            >About the library &darr;</a
-          >
+          <a class="header__link" href="#">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
@@ -66,9 +63,7 @@
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
 
-          
           <ul class="staff__cards">
-          
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
@@ -159,6 +154,7 @@
                 </p>
               </div>
             </div>
+
             <p class="events__description">
               At this event, which celebrates the library's namesake, our guest
               lecturer will take us on a journey exploring some of the most
@@ -174,8 +170,8 @@
           <div class="events__cover">
             <img
               src="images/cafe.png"
-              alte="cafe image"
               class="events__image"
+              alt="images cafe"
             />
 
             <div class="person person_name_feynman">
@@ -280,7 +276,7 @@
         </section>
         <section class="about">
           <h2 class="about__title">About the library</h2>
-          <main class="about__content">
+          <div class="about__content">
             <p class="about__paragraph">
               Libraries are essential establishments in practically every city,
               and Practicum's library is no exception. It first opened its doors
@@ -298,52 +294,56 @@
               astrophysicist and the first woman to be elected as an officer of
               the American Geophysical Union.
             </p>
-          </main>
+          </div>
           <div class="about__circle"></div>
         </section>
       </main>
+
       <footer class="footer" id="footer">
-
         <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="images/logo_white.png"
+              alt="bottom logo"
+              class="footer__logo"
+            />
+          </div>
 
-        <div class="footer__column">
-          <img src="images/logo_white.png" alt="bottom logo"class="footer__logo" />
-        </div>
-
-        
           <div class="footer__column footer__column-hours">
-          <h4 class="footer__column-heading">Hours</h4>
-          <ul class="footer__list">
-            <li class="footer__list-item">Weekdays: 9am – 8pm</li>
-            <li class="footer__list-item">Weekends: 10am – 6pm</li>
-            <ul>
-        </div>
+            <h4 class="footer__column-heading">Hours</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am – 8pm</li>
+              <li class="footer__list-item">Weekends: 10am – 6pm</li>
+            </ul>
+          </div>
 
-        
           <div class="footer__column footer__column_social">
             <h4 class="footer__column-heading">Social media</h4>
             <ul class="footer__list">
-              
-              
-                <li class="footer__column-link">
-                <a href="#" class="footer__column-link"><img src="images/facebook_white.svg" alt="Facebook icon" class="footer_social-icon">Facebook</a>
-               
-                
-      
-
-
-            
-              <li class="footer__list-item">
               <li class="footer__column-link">
-                <a href="#" class="footer__column-link"><img src="images/instagram_white.svg" alt="Instagram icon" class="footer_social-icon">Instagram</a>
-                
-            </li>
+                <a href="#" class="footer__column-link"
+                  ><img
+                    src="images/facebook_white.svg"
+                    alt="Facebook icon"
+                    class="footer_social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item"></li>
+              <li class="footer__column-link">
+                <a href="#" class="footer__column-link"
+                  ><img
+                    src="images/instagram_white.svg"
+                    alt="Instagram icon"
+                    class="footer_social-icon"
+                  />Instagram</a
+                >
               </li>
             </ul>
           </div>
-          </div>
-         <p class="footer__copyright">© 2022 Laila Maghaouma</p>
-        
+        </div>
+
+        <p class="footer__copyright">© 2022 Laila Maghaouma</p>
       </footer>
     </div>
   </body>

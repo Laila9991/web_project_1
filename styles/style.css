@@ -1,12 +1,9 @@
 .page {
-  min-width: 1100px;
-  max-width: 1600px;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
-
 
 .header {
   height: 100vh;
@@ -47,7 +44,6 @@
   align-items: center;
 }
 
-
 .nav__links :hover {
   color: #1f69c9;
 }
@@ -67,7 +63,6 @@
 }
 
 .header__image {
- 
   max-width: 636px;
   z-index: 1;
   position: absolute;
@@ -96,7 +91,6 @@
 .header__link:hover {
   color: #1f69c9;
 }
-
 
 .header__link :hover {
   color: #1f69c9;
@@ -129,7 +123,6 @@
   margin: 24px 0 0;
   padding-bottom: 60px;
 }
-
 
 .staff__cards {
   display: flex;
@@ -255,7 +248,6 @@
   color: #1f69c9;
 }
 
-
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -277,40 +269,32 @@
 }
 
 .person_name_feynman {
- top:-30px;
- left:319px;
-  
+  top: -30px;
+  left: 319px;
 }
 
 .person_name_burbidge {
-  
-top: 125px;
-right:96px;
+  top: 125px;
+  right: 96px;
 }
 
 .person_name_cannon {
-
-right:216px;
-bottom:18px;
-
-
-
+  right: 216px;
+  bottom: 18px;
 }
 
 .person_name_mitchell {
-left:142px;
-bottom:82px;
-  
+  left: 142px;
+  bottom: 82px;
 }
 
 .person_name_tarter {
   top: 159px;
-  left:79px;
-  
+  left: 79px;
 }
 
 .person__image {
-  max-width: 100%;‹
+  max-width: 100%;
 }
 
 .person__image_size_l {
@@ -347,21 +331,16 @@ bottom:82px;
 }
 
 .membership__steps {
-  display:flex;
+  display: flex;
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  column-gap:40px;
+  column-gap: 40px;
   justify-content: center;
-
- 
- 
 }
 
 .step {
- flex-basis:220px;
-
-
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -382,15 +361,12 @@ bottom:82px;
 }
 
 .about {
-  
   display: flex;
   padding: 100px 80px;
   background-color: #1f1f1f;
   color: #fff;
   overflow: hidden;
   position: relative;
-
-  
 }
 
 .about__title {
@@ -400,8 +376,7 @@ bottom:82px;
   font-weight: 500;
   z-index: 1;
   max-width: 154px;
-  padding-right:120px;
-  
+  padding-right: 120px;
 }
 
 .about__content {
@@ -410,16 +385,11 @@ bottom:82px;
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  
-
-  
 }
 
 .about__paragraph {
   margin: 0;
   padding: 32px;
-  
-  
 }
 
 .about__circle {
@@ -427,81 +397,55 @@ bottom:82px;
   width: 495px;
   height: 495px;
   border-radius: 50%;
-  position:absolute;
-  top:-91px;
-  left:-121px;
+  position: absolute;
+  top: -91px;
+  left: -121px;
   z-index: 0;
-
 }
 
 .footer {
   min-height: 224px;
   line-height: 2;
-  background-color:#1f1f1f;
-
+  background-color: #1f1f1f;
 }
-
-
 
 .footer__columns {
   display: flex;
-
-  
-
-
 }
 
-
-.footer__column-hours{
- margin-left: auto;
-  font-size: 16px;;
- 
-  
-  
-
-
+.footer__column-hours {
+  margin-left: auto;
+  font-size: 16px;
 }
 
 .footer__column_social {
- margin-left: 100px;
+  margin-left: 100px;
   line-height: 2;
   font-size: 16px;
- margin-right: 100px;
-
+  margin-right: 100px;
 }
 
-.footer__column-link:hover{
-  color:#c1c1c1;
-
-
+.footer__column-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__logo {
   width: 152px;
-  height:32px;
-  margin-left: 80px;;
-  
+  height: 32px;
+  margin-left: 80px;
 }
 
 .footer__list {
- 
   list-style-type: none;
   padding: 0px;
   margin: 0;
-
-   
 }
 
 .footer__list-item {
-margin-bottom: 16px;
-
+  margin-bottom: 16px;
 }
 
 .footer__column-heading {
-  
-
- 
-
 }
 
 .footer__column-link {
@@ -511,17 +455,14 @@ margin-bottom: 16px;
   text-decoration: none;
   display: flex;
   column-gap: 16px;
-
 }
 
 .footer__social-icon {
   background-color: antiquewhite;
-
-   
 }
 
 .footer__copyright {
   margin-top: auto;
   margin-bottom: 60px;
-  margin-left: 80px;;
+  margin-left: 80px;
 }
